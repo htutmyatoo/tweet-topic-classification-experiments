@@ -1,4 +1,4 @@
-# ✨ TopicLens AI
+# 🐣 TopicLens AI: Tweet Topic Classification Experiments
 
 [![Spotify](https://img.shields.io/badge/Dev%20Soundtrack-%20Me%20Vs.%20The%20World-1DB954?logo=spotify&logoColor=white)](https://open.spotify.com/track/3CXMsoCv6gYlcRLBz7WkNO)
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
