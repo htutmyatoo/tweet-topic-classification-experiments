@@ -1,6 +1,6 @@
 # ✨ TopicLens AI
 
-TopicLens AI is a premium NLP micro-service designed to classify tweets into six distinct categories with high precision. Built using the **CRISP-DM methodology**, this application leverages a tuned Linear Support Vector Machine (SVM) model to provide real-time linguistic analysis.
+TopicLens AI is a NLP micro-service designed to classify tweets into six distinct categories with high precision. Built using the **CRISP-DM methodology**, this application leverages a tuned Linear Support Vector Machine (SVM) model to provide real-time linguistic analysis.
 
 ## 🚀 Features
 
@@ -33,7 +33,18 @@ The underlying model was developed through extensive experimentation:
   - 🔬 Science & Technology
 
 ## 📂 Project Structure
-
+```
+topic-lens-ai/
+    ├── data/
+    │   ├── tweets.json                           # Dataset
+    ├── model/
+    │   └── best_tweet_classifier.pkl             # Best Model               
+    ├── app.py                                    # Main App
+    ├── LICENSE
+    ├── README.md
+    ├── requirements.txt                          # Dependencies
+    └── TopicLens_AI_Model_Development.ipynb      # Jupyter Notebook
+```
 
 ## ⚙️ Installation & Local Setup
 
