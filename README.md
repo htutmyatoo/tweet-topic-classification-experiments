@@ -1,6 +1,24 @@
 # ✨ TopicLens AI
 
+[![Spotify](https://img.shields.io/badge/Dev%20Soundtrack-%20Me%20Vs.%20The%20World-1DB954?logo=spotify&logoColor=white)](https://open.spotify.com/track/3CXMsoCv6gYlcRLBz7WkNO)
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B)
+![Machine Learning](https://img.shields.io/badge/Model-Linear_SVM-success)
+![NLP](https://img.shields.io/badge/NLP-NLTK%20%26%20Lemmatization-informational)
+![Methodology](https://img.shields.io/badge/Methodology-CRISP--DM-orange)
+![Scikit-Learn](https://img.shields.io/badge/Library-Scikit--Learn-F7931E)
+![Status](https://img.shields.io/badge/Status-Active-success)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 TopicLens AI is a NLP micro-service designed to classify tweets into six distinct categories with high precision. Built using the **CRISP-DM methodology**, this application leverages a tuned Linear Support Vector Machine (SVM) model to provide real-time linguistic analysis.
+
+## 🖥️ Demo App
+<div align="center">
+  <a href="https://topic-lens-ai.streamlit.app/"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App"></a>
+  <a href="https://colab.research.google.com/drive/1D9mRwVNPe56deWf9pBNbL8wMxU2YPP06?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Google Colab"></a>
+</div>
+
+![Demo](assets/demo.png)
 
 ## 🚀 Features
 
@@ -35,6 +53,8 @@ The underlying model was developed through extensive experimentation:
 ## 📂 Project Structure
 ```
 topic-lens-ai/
+    ├── assets/
+    │   ├── demo.png
     ├── data/
     │   ├── tweets.json                           # Dataset
     ├── model/
