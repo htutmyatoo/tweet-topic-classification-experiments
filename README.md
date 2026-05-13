@@ -55,6 +55,13 @@ The underlying model was developed through extensive experimentation:
 topic-lens-ai/
     ├── assets/
     │   ├── demo.png
+    ├── charts/
+    │   ├── class_distribution.png
+    │   ├── confusion_matrix_baseline.png
+    │   ├── confusion_matrix_best.png
+    │   ├── experiment_comparison.png
+    │   ├── per_class_f1.png
+    │   ├── text_length_dist.png
     ├── data/
     │   ├── tweets.json                           # Dataset
     ├── model/
